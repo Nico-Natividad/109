@@ -4,11 +4,11 @@ import Product from './Product.jsx'
 function Catalog() {
     return (
         <div className="catalog">
-            <h1>Our Products</h1>
+            <h1 style={{ textAlign: 'center', fontSize: '4rem', fontFamily: 'Arial, sans-serif' }}>Check out our Products</h1>
             <div className="product-list">
-                <Product title="Product 1" price={19.99} />
-                <Product title="Product 2" price={29.99} />
-                <Product title="Product 3" price={39.99} />
+               <Product  /><Product  /><Product  />
+               
+                
             </div>
 
         </div>

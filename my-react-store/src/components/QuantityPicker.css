@@ -1,0 +1,11 @@
+.quantity-button {
+  background-color: #10bcd7;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.quantity-label {
+  margin: 0 10px;
+  font-size: 16px;
+}
