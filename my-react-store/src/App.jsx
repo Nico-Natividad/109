@@ -3,13 +3,15 @@ import {BrowserRouter, Routes, Route} from 'react-router';
 import Navbar from './components/Navbar.jsx'; 
 import './components/Footer.jsx'
 
-import Home from './pages/Home.jsx';
+
 import './App.css';
 import Footer from './components/Footer.jsx';
 import Catalog from './components/Catalog.jsx';
 import Product from './components/Product.jsx';
 import QuantityPicker from './components/QuantityPicker.jsx';
-import About from './pages/Contact.jsx'
+import About from './pages/About.jsx'
+import Home from './pages/Home.jsx';
+import Contact from './pages/Contact.jsx'
 
 
 function App() {
