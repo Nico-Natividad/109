@@ -23,6 +23,7 @@ function Admin() {
     }
 
     function saveProduct() {
+        console.log("hello from saveProduct function!")
         const newProduct = {
             title: productTitle,
             category: productCategory,
@@ -79,8 +80,8 @@ function Admin() {
                                 <div className="card" style={{ width: "150px" }}>
                                     <img src={product.image} className="card-img-top" alt="product" />
                                     <div className="card-body">
-                                        <div className="text-end fw-bold" style={{ fontSize: "12px" }}>{product.category}</div>
-                                        <div className="d-flex justify-content-between align-items-center mt-2">
+                                        <div className="text-end fw-bold text-primary" >{product.category}</div>
+                                        <div className="d-flex justify-content-between align-items-center mt-2 text-success">
                                             <h6 className="mb-0">{product.title}</h6>
                                             <span className="text-muted" style={{ fontSize: "14px" }}>${product.price}</span>
                                         </div>

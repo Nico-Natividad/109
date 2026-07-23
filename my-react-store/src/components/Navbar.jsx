@@ -1,8 +1,10 @@
 import {Link} from 'react-router'
 import "./Navbar.css";
+import useStore from "../state/cart.js"
 
 
 function Navbar() {
+  const {user} = useStore();
   return (
     
     <nav className="navbar navbar-expand-lg  bg-success bg-gradient "data-bs-theme="dark">
@@ -33,6 +35,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
+        <div className="text-white">{user.name}| {user.cohort}</div>
       </div>
     </nav>
    
